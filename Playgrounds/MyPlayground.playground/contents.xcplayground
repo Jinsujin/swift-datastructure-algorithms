@@ -3,5 +3,6 @@
     <pages>
         <page name='Untitled Page 2'/>
         <page name='Harshad'/>
+        <page name='NextNumber'/>
     </pages>
 </playground>
