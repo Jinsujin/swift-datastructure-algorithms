@@ -6,5 +6,6 @@
         <page name='NextNumber'/>
         <page name='HashMap'/>
         <page name='MathTest'/>
+        <page name='CharactorPath'/>
     </pages>
 </playground>
