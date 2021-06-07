@@ -7,5 +7,6 @@
         <page name='HashMap'/>
         <page name='MathTest'/>
         <page name='CharactorPath'/>
+        <page name='WordPlay'/>
     </pages>
 </playground>
