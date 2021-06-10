@@ -8,5 +8,6 @@
         <page name='MathTest'/>
         <page name='CharactorPath'/>
         <page name='WordPlay'/>
+        <page name='SkillTree'/>
     </pages>
 </playground>
