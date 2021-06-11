@@ -9,5 +9,6 @@
         <page name='CharactorPath'/>
         <page name='WordPlay'/>
         <page name='SkillTree'/>
+        <page name='Bracket'/>
     </pages>
 </playground>
