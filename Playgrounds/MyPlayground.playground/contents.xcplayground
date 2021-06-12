@@ -10,5 +10,6 @@
         <page name='WordPlay'/>
         <page name='SkillTree'/>
         <page name='Bracket'/>
+        <page name='StockPrice'/>
     </pages>
 </playground>
