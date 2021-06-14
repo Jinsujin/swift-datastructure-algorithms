@@ -11,5 +11,6 @@
         <page name='SkillTree'/>
         <page name='Bracket'/>
         <page name='StockPrice'/>
+        <page name='Euclidean'/>
     </pages>
 </playground>

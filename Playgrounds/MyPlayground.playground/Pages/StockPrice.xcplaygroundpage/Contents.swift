@@ -20,7 +20,7 @@ import Foundation
 // return [4,3,1,1,0]
 let prices = [1,2,3,2,3]
 
-
+// TODO:- 이중반복문대신 다른 방법으로 풀어보기
 func solution(_ prices: [Int])-> [Int] {
     var result: [Int] = []
     
