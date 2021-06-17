@@ -28,28 +28,6 @@ print(100%30)
 45%5 //0
 
 
-
-struct DevFunc {
-    // 남은 날짜수
-    public var remainDay: Int
-    
-    init(_ progress:Int, _ speed: Int) {
-        let remainPercent = 100 - progress
-        let d = remainPercent / speed
-        let f = remainPercent % speed
-        remainDay = (f > 0) ? d + 1 : d
-    }
-}
-
-let df1 = DevFunc(30, 30)
-print(df1)
-
-
-let df2 = DevFunc(55,5)
-print(df2)
-
-
-
 /// Queue
 struct Queue<T> {
     public var queue: [T] = []
@@ -92,21 +70,22 @@ let speeds = [1, 30, 5]
 func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
     var result: [Int] = []
     
-    var queue = Queue<DevFunc>()
+    var queue = Queue<Int>()
     for i in 0..<progresses.count {
-        queue.enqueue(DevFunc(progresses[i], speeds[i]))
+        let remainPercent = 100 - progresses[i]
+        let d = remainPercent / speeds[i]
+        let f = remainPercent % speeds[i]
+        queue.enqueue((f > 0) ? d + 1 : d)
     }
     
     var day: Int = 1
     
      //큐에 데이터가 없을때까지 반복
     while(!queue.isEmpty) {
-//        print("day", day)
         var count: Int = 0
-        for data in queue.queue {
-            if( data.remainDay <= day) {
+        for remainDay in queue.queue {
+            if( remainDay <= day) {
                 count += 1
-                print(count)
                 continue
             } else {
                 break
@@ -119,7 +98,6 @@ func solution(_ progresses:[Int], _ speeds:[Int]) -> [Int] {
                 queue.dequeue()
             }
         }
-        
         day += 1
     }
     
