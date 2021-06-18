@@ -73,40 +73,43 @@ func solution(_ bridge_length:Int, _ weight:Int, _ truck_weights:[Int]) -> Int {
     
     var time = 0
     
-    var goalTrucks = Queue()
+//    var goalTrucks = Queue()
+    
     
     // 옮길 트럭이 존재하고, 다리 위 트럭이 아무 것도 없는 경우
-//    while(!trucksQueue.isEmpty && !trucksOnBridgeQueue.isEmpty) {
-    while(goalTrucks.count < trucksCount ) {
+    while(!trucksQueue.isEmpty || trucksOnBridgeQueue.isEmpty == false) {
+//    while(goalTrucks.count < trucksCount ) {
         print("time ==== ", time)
         // 1. 다리위에 트럭을 놓을 수 있나. 시간 1 소요
         if let currentTruck = trucksQueue.first(),
-         trucksOnBridgeQueue.count < 2 {
-            // 2 보다 작으면, 다리 위에 트럭을 올릴 수 있는데,
-            // 올라갈 트럭의 무게가 견딜수 있는 무게 보다 작은지 체크 필요함
+           currentTruck <= (weight - trucksOnBridgeQueue.totalSum),
+           trucksOnBridgeQueue.count < bridge_length {
             
-            // 다리 위에 있는 트럭들의 무게 합
-            let 현재다리무게 = weight - trucksOnBridgeQueue.totalSum
-            if currentTruck <= 현재다리무게,
-               let truck = trucksQueue.dequeue() {
-                // 다리에 트럭을 올릴 수 있는 상태. 트럭을 하나 빼서 다리위에 올린다
-                trucksOnBridgeQueue.enqueue(truck)
-                print("다리위에 올라간 트럭 ", truck)
-                time += 1
-//                continue
+            if let truck = trucksQueue.dequeue() {
+                   // 다리에 트럭을 올릴 수 있는 상태. 트럭을 하나 빼서 다리위에 올린다
+                   trucksOnBridgeQueue.enqueue(truck)
+                   print("다리위에 올라간 트럭 ", truck)
+                   time += 1
+                   continue
+               }
+        } else {
+
+            // Error::-
+            // 2. 다리위 트럭이 있나 -> 트럭 옮기기(다리 길이만큼 시간이 소요된다)
+            // 트럭이 하나라도 다리 위에 있고, 다리 위에 더이상 트럭을 올릴수 없을때 옮긴다
+            // 트럭이 다리위에 시간텀을 두고 올라왔을떄 어떻게 처리할 것인지 - 트럭이 몇초에 다리위로 올라왔는지 기록해둔다..?
+            if !trucksOnBridgeQueue.isEmpty {
+                print("완료된 트럭 수" , trucksOnBridgeQueue.count)
+                for _ in 0..<trucksOnBridgeQueue.count {
+                    trucksOnBridgeQueue.dequeue()
+                }
+                time += bridge_length
             }
         }
+
+
         
-        // 2. 다리위 트럭이 있나 -> 트럭 옮기기(다리 길이만큼 시간이 소요된다)
-        // Error: 시간 계산
-        //  다리 위 트럭이 2개 올라갔다면 같이 시간이 움직인다
-        if let truck = trucksOnBridgeQueue.dequeue() {
-            print("완료된 트럭", truck)
-            goalTrucks.enqueue(truck)
-            time += 1
-            continue
-        }
-    
+
     }
     
     return time
