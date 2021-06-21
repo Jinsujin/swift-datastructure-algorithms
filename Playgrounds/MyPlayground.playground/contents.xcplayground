@@ -14,5 +14,7 @@
         <page name='Euclidean'/>
         <page name='DevRelease'/>
         <page name='TruckOnBridge'/>
+        <page name='Scoville'/>
+        <page name='Heap'/>
     </pages>
 </playground>
