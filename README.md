@@ -41,8 +41,9 @@
 
 ## 👩🏼‍💻 Today I Learned
 
-| Date                                                                                              |                                                                         |
-| ------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| [20211221](./Playgrounds/TodayILearned.playground/Pages/20211221.xcplaygroundpage/Contents.swift) | 하샤드수, 다음 큰 숫자, 모의고사, 소수만들기                            |
-| [20211222](./Playgrounds/TodayILearned.playground/Pages/20211222.xcplaygroundpage/Contents.swift) | K번째 수, 문자열 내 마음대로 정렬, 스킬 트리, 올바른 괄호               |
-| [20211223](./Playgrounds/TodayILearned.playground/Pages/20211223.xcplaygroundpage/Contents.swift) | `복습`: Stack, Queue, 하샤드 수/ 완주하지 못한 선수, 주식가격, 기능개발 |
+| Date                                                                                              | 복습                                              | 학습                                                      |
+| ------------------------------------------------------------------------------------------------- | ------------------------------------------------- | --------------------------------------------------------- |
+| [20211221](./Playgrounds/TodayILearned.playground/Pages/20211221.xcplaygroundpage/Contents.swift) | -                                                 | 하샤드수, 다음 큰 숫자, 모의고사, 소수만들기              |
+| [20211222](./Playgrounds/TodayILearned.playground/Pages/20211222.xcplaygroundpage/Contents.swift) | -                                                 | K번째 수, 문자열 내 마음대로 정렬, 스킬 트리, 올바른 괄호 |
+| [20211223](./Playgrounds/TodayILearned.playground/Pages/20211223.xcplaygroundpage/Contents.swift) | Stack, Queue, 하샤드 수                           | 완주하지 못한 선수, 주식가격, 기능개발                    |
+| [20211224](./Playgrounds/TodayILearned.playground/Pages/20211224.xcplaygroundpage/Contents.swift) | Stack, Queue(프로토콜을 이용해 개선), 올바른 괄호 | 다리를 지나는 트럭                                        |
