@@ -54,6 +54,8 @@ extension Stack: CustomStringConvertible, CustomDebugStringConvertible {
 // Point(x: 0, y: 0) => (0, 0)
 ```
 
+<br/>
+
 ### 2. 배열 리터럴 방식을 이용한 초기화
 
 ```swift

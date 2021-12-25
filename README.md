@@ -32,10 +32,11 @@
 
 ## 📚 Subject
 
-| -          | -                                  |
-| ---------- | ---------------------------------- |
-| `자료구조` | [스택](./data-structures/Stack.md) |
-| `자료구조` | [큐](./data-structures/Queue.md)   |
+| -          | -                                                   |
+| ---------- | --------------------------------------------------- |
+| `자료구조` | [스택](./data-structures/Stack.md)                  |
+| `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md) |
+| `자료구조` | [큐](./data-structures/Queue.md)                    |
 
 <br/>
 
@@ -47,3 +48,4 @@
 | [20211222](./Playgrounds/TodayILearned.playground/Pages/20211222.xcplaygroundpage/Contents.swift) | -                                                 | K번째 수, 문자열 내 마음대로 정렬, 스킬 트리, 올바른 괄호 |
 | [20211223](./Playgrounds/TodayILearned.playground/Pages/20211223.xcplaygroundpage/Contents.swift) | Stack, Queue, 하샤드 수                           | 완주하지 못한 선수, 주식가격, 기능개발                    |
 | [20211224](./Playgrounds/TodayILearned.playground/Pages/20211224.xcplaygroundpage/Contents.swift) | Stack, Queue(프로토콜을 이용해 개선), 올바른 괄호 | 다리를 지나는 트럭                                        |
+| [20211225](./Playgrounds/TodayILearned.playground/Pages/20211225.xcplaygroundpage/Contents.swift) | Stack(단방향 Linked List로 구현), Queue           | 위장                                                      |
