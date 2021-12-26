@@ -13,7 +13,7 @@
 3. 분석한 내용을 기반으로 코드를 구현해 봅니다.(1시간)
 
 ```
-구현이 잘 안된다면, 검색을 합니다.
+구현이 잘 안된다면 검색을 합니다.
 잘 만들어진 코드를 참고 합시다.🧐
 ```
 
@@ -49,3 +49,4 @@
 | [20211223](./Playgrounds/TodayILearned.playground/Pages/20211223.xcplaygroundpage/Contents.swift) | Stack, Queue, 하샤드 수                           | 완주하지 못한 선수, 주식가격, 기능개발                    |
 | [20211224](./Playgrounds/TodayILearned.playground/Pages/20211224.xcplaygroundpage/Contents.swift) | Stack, Queue(프로토콜을 이용해 개선), 올바른 괄호 | 다리를 지나는 트럭                                        |
 | [20211225](./Playgrounds/TodayILearned.playground/Pages/20211225.xcplaygroundpage/Contents.swift) | Stack(단방향 Linked List로 구현), Queue           | 위장                                                      |
+| [20211226](./Playgrounds/TodayILearned.playground/Pages/20211226.xcplaygroundpage/Contents.swift) | Stack List                                        | `Greedy`: 큰 수 만들기, 활동 선택, 강의실 배정(백준11000) |
