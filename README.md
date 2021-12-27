@@ -37,6 +37,8 @@
 | `자료구조` | [스택](./data-structures/Stack.md)                  |
 | `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md) |
 | `자료구조` | [큐](./data-structures/Queue.md)                    |
+| `문제풀이` | [스킬트리](./exam/스킬트리.md)                      |
+| `문제풀이` | [기능개발](./exam/기능개발.md)                      |
 
 <br/>
 
@@ -51,3 +53,4 @@
 | [20211225](./Playgrounds/TodayILearned.playground/Pages/20211225.xcplaygroundpage/Contents.swift) | Stack(단방향 Linked List로 구현), Queue           | 위장                                                          |
 | [20211226](./Playgrounds/TodayILearned.playground/Pages/20211226.xcplaygroundpage/Contents.swift) | Stack List                                        | `Greedy`: 큰 수 만들기, 활동 선택, 강의실 배정(백준11000)     |
 | [20211227](./Playgrounds/TodayILearned.playground/Pages/20211227.xcplaygroundpage/Contents.swift) | Stack, Queue                                      | 강의-`Dynamic Programming`: 동전, 배낭/ 인접 리스트, DFS, BFS |
+| [20211228](./Playgrounds/TodayILearned.playground/Pages/20211228.xcplaygroundpage/Contents.swift) | Stack, Queue                                      | 강의-`Search`: 이진 탐색                                      |
