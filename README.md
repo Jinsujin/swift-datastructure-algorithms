@@ -54,3 +54,4 @@
 | [20211226](./Playgrounds/TodayILearned.playground/Pages/20211226.xcplaygroundpage/Contents.swift) | Stack List                                        | `Greedy`: 큰 수 만들기, 활동 선택, 강의실 배정(백준11000)     |
 | [20211227](./Playgrounds/TodayILearned.playground/Pages/20211227.xcplaygroundpage/Contents.swift) | Stack, Queue                                      | 강의-`Dynamic Programming`: 동전, 배낭/ 인접 리스트, DFS, BFS |
 | [20211228](./Playgrounds/TodayILearned.playground/Pages/20211228.xcplaygroundpage/Contents.swift) | Stack, Queue                                      | 강의-`Search`: 이진 탐색                                      |
+| [20211229](./Playgrounds/TodayILearned.playground/Pages/20211229.xcplaygroundpage/Contents.swift) | Stack, Queue, 이진탐색                            | `Sort`: 삽입, 버블                                            |
