@@ -56,3 +56,4 @@
 | [20211228](./Playgrounds/TodayILearned.playground/Pages/20211228.xcplaygroundpage/Contents.swift) | Stack, Queue                                      | 강의-`Search`: 이진 탐색                                      |
 | [20211229](./Playgrounds/TodayILearned.playground/Pages/20211229.xcplaygroundpage/Contents.swift) | Stack, Queue, 이진탐색                            | `Sort`: 삽입, 버블                                            |
 | [20211230](./Playgrounds/TodayILearned.playground/Pages/20211230.xcplaygroundpage/Contents.swift) | Stack, Queue, 이진탐색                            | `BFS`: 장기, 상한 귤                                          |
+| [20211231](./Playgrounds/TodayILearned.playground/Pages/20211231.xcplaygroundpage/Contents.swift) | 이진탐색, 버블정렬, 삽입정렬                      | 프린터                                                        |
