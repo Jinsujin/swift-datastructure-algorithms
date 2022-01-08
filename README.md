@@ -36,6 +36,7 @@
 | ---------- | --------------------------------------------------- |
 | `자료구조` | [스택](./data-structures/Stack.md)                  |
 | `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md) |
+| `정렬`     | [선택정렬](./sort/SelectionSort.md)                 |
 | `자료구조` | [큐](./data-structures/Queue.md)                    |
 | `문제풀이` | [스킬트리](./exam/스킬트리.md)                      |
 | `문제풀이` | [기능개발](./exam/기능개발.md)                      |
