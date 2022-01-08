@@ -37,6 +37,7 @@
 | `자료구조` | [스택](./data-structures/Stack.md)                  |
 | `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md) |
 | `정렬`     | [선택정렬](./sort/SelectionSort.md)                 |
+| `정렬`     | [삽입정렬](./sort/InsertionSort.md)                 |
 | `자료구조` | [큐](./data-structures/Queue.md)                    |
 | `문제풀이` | [스킬트리](./exam/스킬트리.md)                      |
 | `문제풀이` | [기능개발](./exam/기능개발.md)                      |
@@ -63,4 +64,4 @@
 | [20220103](./Playgrounds/TodayILearned.playground/Pages/20220103.xcplaygroundpage/Contents.swift) | 버블 정렬, 삽입 정렬                              | 강의-`DFS`: 여행경로, 가장 큰 수(프로그래머스 정렬)                                                                                                         |
 | [20220104](./Playgrounds/TodayILearned.playground/Pages/20220104.xcplaygroundpage/Contents.swift) | -                                                 | 책-`재귀`: 팩토리얼, 피보나치수열(동적 계획법), 분할정복 알고리즘을 이용해 최대값 탐색                                                                      |
 | [20220105](./Playgrounds/TodayILearned.playground/Pages/20220105.xcplaygroundpage/Contents.swift) | -                                                 | 분산처리(백준 1009), 저항(백준 1076)                                                                                                                        |
-| [20220106](./Playgrounds/TodayILearned.playground/Pages/20220105.xcplaygroundpage/Contents.swift) | `재귀`: 반복문, 팩토리얼, 피보나치                | `Sort`: 퀵정렬                                                                                                                                              |
+| [20220106](./Playgrounds/TodayILearned.playground/Pages/20220106.xcplaygroundpage/Contents.swift) | `재귀`: 반복문, 팩토리얼, 피보나치                | `Sort`: 퀵정렬                                                                                                                                              |

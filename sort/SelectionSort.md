@@ -90,4 +90,5 @@ N + (N - 1) + (N - 2) + ... + 2
 
 ## 참고 자료
 
-- (정렬 알고리즘-동빈나)[https://youtu.be/KGyK-pNvWos]
+- [정렬 알고리즘-동빈나](https://youtu.be/KGyK-pNvWos)
+- `책` 알고리즘과 자료구조 입문-프로그래밍 인사이트
