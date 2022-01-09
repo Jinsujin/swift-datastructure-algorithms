@@ -10,9 +10,9 @@ https://www.acmicpc.net/problem/1009
  - NOTE: 제출시 테스트 실패. 문제에 나와있는 테스트 케이스는 통과.
  - 빠진 예외가 있는지 찾아볼것
 */
-let N: Int = Int(readLine()!)!
+let M: Int = 3//Int(readLine()!)!
 
-for _ in 0..<N {
+for _ in 0..<M {
     let lineArr = readLine()!.split(separator: " ").map{ Int($0) }
     guard let base = lineArr[0], let idx = lineArr[1] else { continue }
     var result = base
