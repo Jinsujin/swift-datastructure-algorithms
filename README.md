@@ -32,15 +32,16 @@
 
 ## 📚 Subject
 
-| 분류       | 주제                                                |
-| ---------- | --------------------------------------------------- |
-| `자료구조` | [스택](./data-structures/Stack.md)                  |
-| `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md) |
-| `정렬`     | [선택정렬](./sort/SelectionSort.md)                 |
-| `정렬`     | [삽입정렬](./sort/InsertionSort.md)                 |
-| `자료구조` | [큐](./data-structures/Queue.md)                    |
-| `문제풀이` | [스킬트리](./exam/스킬트리.md)                      |
-| `문제풀이` | [기능개발](./exam/기능개발.md)                      |
+| 분류       | 주제                                                           |
+| ---------- | -------------------------------------------------------------- |
+| `자료구조` | [스택](./data-structures/Stack.md)                             |
+| `자료구조` | [스택-리스트](./data-structures/StackLinkedList.md)            |
+| `자료구조` | [큐](./data-structures/Queue.md)                               |
+| `자료구조` | [링크드 리스트(tail)](./data-structures/LinkedListWithTail.md) |
+| `정렬`     | [선택정렬](./sort/SelectionSort.md)                            |
+| `정렬`     | [삽입정렬](./sort/InsertionSort.md)                            |
+| `문제풀이` | [스킬트리](./exam/스킬트리.md)                                 |
+| `문제풀이` | [기능개발](./exam/기능개발.md)                                 |
 
 <br/>
 
@@ -68,5 +69,5 @@
 | [20220108](./Playgrounds/TodayILearned.playground/Pages/20220108.xcplaygroundpage/Contents.swift) |                                                   | `Sort`: 선택 정렬, 삽입 정렬                                                                                                                                |
 | [20220109](./Playgrounds/TodayILearned.playground/Pages/20220109.xcplaygroundpage/Contents.swift) | `재귀`: 피보나치, 배열 합/ 버블 정렬              | `Sort`: 퀵정렬-실패(InPlace)                                                                                                                                |
 | [20220110](./Playgrounds/TodayILearned.playground/Pages/20220110.xcplaygroundpage/Contents.swift) | -                                                 | 단방향 링크드 리스트                                                                                                                                        |
-| [20220111](./Playgrounds/TodayILearned.playground/Pages/20220111.xcplaygroundpage/Contents.swift) | -                                                 | 단방향 링크드 리스트                                                                                                                                        |
+| [20220111](./Playgrounds/TodayILearned.playground/Pages/20220111.xcplaygroundpage/Contents.swift) | -                                                 | 단방향 링크드 리스트(Tail 추가, 성능 테스트)                                                                                                                |
 | [20220112](./Playgrounds/TodayILearned.playground/Pages/20220112.xcplaygroundpage/Contents.swift) | 단방향 링크드 리스트                              | Reverse(LeetCode), Remove duplicates from sorted list((LeetCode))                                                                                           |
