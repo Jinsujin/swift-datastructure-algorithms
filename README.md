@@ -84,17 +84,17 @@
         </thead>
         <tbody>
             <tr> 
-                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0208.xcplaygroundpage/Contents.swift"></a></td>
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0208.xcplaygroundpage/Contents.swift">0208</a></td>
                 <td>병합정렬</td>
                 <td>-</td>
             </tr>
             <tr> 
-                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0207.xcplaygroundpage/Contents.swift"></a></td>
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0207.xcplaygroundpage/Contents.swift">0207</a></td>
                 <td>재귀</td>
                 <td>분할정복 알고리즘: 병합정렬(책, 참고사이트 분석)</td>
             </tr>
             <tr>
-                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0203.xcplaygroundpage/Contents.swift"></a></td>
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0203.xcplaygroundpage/Contents.swift">0203</a></td>
                 <td>-</td>
                 <td>Concurrency: async/await</td>
             </tr>
