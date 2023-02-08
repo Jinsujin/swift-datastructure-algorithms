@@ -65,6 +65,7 @@ var sorted = [Int](repeating: 0, count: 5) // 모든함수가 동일하게 사�
 
 /// 2개의 배열을 하나의 배열로 합치는 함수
 /// m: 시작점, middle: 중간점, n: 끝점
+/// 테스트 케이스 실패 🚨
 func merge(_ arr: inout [Int], m: Int, middle: Int, n: Int) {
     var i = m // 합칠 집합A 의 시작 index
     var j = middle + 1 // 합칠 집합 B의 시작 index
@@ -123,6 +124,7 @@ mergeSort(array2, m: 0, n: array2.count - 1)
 
 
 /// https://babbab2.tistory.com/102
+/// 테스트 케이스 실패 🚨
 //func mergeSort(_ arr: [Int]) -> [Int] {
 //    if arr.count <= 1 { return arr }
 //    let middle = arr.count / 2
@@ -156,7 +158,7 @@ mergeSort(array2, m: 0, n: array2.count - 1)
 //print(mergeSort(array2))
 
 
-
+/// https://noah0316.github.io/Algorithms/2021-07-16-merge-sort(%ED%95%A9%EB%B3%91%EC%A0%95%EB%A0%AC)/
 func merge(leftPile: [Int], rightPile: [Int]) -> [Int] {
     // 1
     var leftIndex = 0
