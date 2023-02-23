@@ -51,6 +51,7 @@
 	<ul>
 		<li><a href="./sort/SelectionSort.md">선택정렬</a></li>
 		<li><a href="./sort/InsertionSort.md">삽입정렬</a></li>
+        <li><a href="./sort/BubbleSort.md">버블정렬</a></li>
 		<li><a href="./sort/MergeSort.md">병합정렬</a></li>
 	</ul>
 </details>
@@ -83,6 +84,31 @@
             </tr>
         </thead>
         <tbody>
+            <tr> 
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0222.xcplaygroundpage/Contents.swift">0222</a></td>
+                <td>삽입, 선택, 버블 정렬</td>
+                <td>-</td>
+            </tr>
+            <tr>
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0217.xcplaygroundpage/Contents.swift">0217</a></td>
+                <td>-</td>
+                <td>Combine</td>
+            </tr>
+            <tr> 
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0216.xcplaygroundpage/Contents.swift">0216</a></td>
+                <td>merge sort, 최대 공약수</td>
+                <td>음료수 얼려먹기(DFS)</td>
+            </tr>
+            <tr> 
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0215.xcplaygroundpage/Contents.swift">0215</a></td>
+                <td>-</td>
+                <td>type eraser wrapper</td>
+            </tr>
+            <tr> 
+                <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0209.xcplaygroundpage/Contents.swift">0209</a></td>
+                <td>BFS</td>
+                <td>-</td>
+            </tr>
             <tr> 
                 <td><a href="./Playgrounds/TodayILearned-2023.playground/Pages/0208.xcplaygroundpage/Contents.swift">0208</a></td>
                 <td>병합정렬</td>
