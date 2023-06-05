@@ -36,5 +36,6 @@
         <page name='0530'/>
         <page name='0602'/>
         <page name='0603'/>
+        <page name='0605'/>
     </pages>
 </playground>
